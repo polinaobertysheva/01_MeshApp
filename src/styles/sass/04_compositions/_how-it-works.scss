@@ -1,0 +1,22 @@
+.how-it-works {
+  &__title {
+    text-align: center;
+  }
+  &__list {
+    padding-left: 0;
+    margin-top: 40px;
+    &__item {
+      list-style: none;
+      display: inline-block;
+      width: 32%;
+    }
+  }
+  &__buttons {
+    text-align: center;
+    margin-top: 80px;
+    &__item {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}

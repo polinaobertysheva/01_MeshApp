@@ -1,0 +1,13 @@
+.navigation {
+  margin-top: 30px;
+  &__menu {
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+  }
+  &__logo {
+    vertical-align: middle;
+    display: inline-block;
+    width: 29%;
+  }
+}

@@ -1,0 +1,22 @@
+.footer {
+  background-color: $darkGray;
+  color: $white;
+  &__logo-container {
+    text-align: center;
+  }
+  &__menu-container {
+    &__menu {
+      text-align: center;
+      margin-top: 40px;
+    }
+  }
+  &__copiright-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .e-menu-item {
+    &:hover {
+      border-color: $white;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.join-us {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &__form-container {
+    &__input {
+      margin-right: 5px;
+    }
+    &__button {
+      margin-left: 5px;
+    }
+  }
+}

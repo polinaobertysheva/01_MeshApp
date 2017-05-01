@@ -1,0 +1,10 @@
+@import '01_identity/colors';
+@import '01_identity/typography';
+.e-logo {
+  &--yellow {
+    //background-color: $primary;
+  }
+  &--black {
+    //background-color: $black;
+  }
+}

@@ -1,0 +1,17 @@
+@import '01_identity/colors';
+@import '01_identity/typography';
+.e-img-text-item {
+  text-align: center;
+  &__image-container {
+    &__image {
+      max-height: 150px;
+    }
+    display: block;
+  }
+  &__text {
+    margin-top: 20px;
+    display: block;
+    font-size: $normal;
+    font-weight: $semi-bold;
+  }
+}
